@@ -75,10 +75,10 @@ export function GenAIGuidelines() {
               <div className="mt-6 rounded-xl border border-blue/30 bg-blue/10 p-4 font-mono text-xs text-blue">
                 <div className="flex items-center gap-2 font-bold">
                   <FileCheck size={14} />
-                  <span>COMMITTED CO-SIGNERS</span>
+                  <span>COMMITTED RESEARCH AUTHOR</span>
                 </div>
                 <p className="mt-1 text-[0.7rem] text-paper">
-                  Chris Kevin A · Sandhiya M · Karthik R
+                  Chris Kevin A · Author ID: 2460349
                 </p>
               </div>
             </div>

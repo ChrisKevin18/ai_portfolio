@@ -11,7 +11,7 @@ const links = [
   { href: "/#posters", label: "ADVOCACY", match: (path: string) => path === "/#posters" },
   { href: "/analysis", label: "MONOGRAPH", match: (path: string) => path.startsWith("/analysis") },
   { href: "/presentation", label: "BRIEFING ROOM", match: (path: string) => path.startsWith("/presentation") },
-  { href: "/about", label: "COLLECTIVE", match: (path: string) => path.startsWith("/about") },
+  { href: "/about", label: "ABOUT", match: (path: string) => path.startsWith("/about") },
 ];
 
 export function Navbar() {

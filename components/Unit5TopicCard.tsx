@@ -119,7 +119,7 @@ export function Unit5TopicCard({ topic }: { topic: Unit5Topic }) {
                     {topic.pillar}
                   </span>
                   <span className="rounded-full border border-green/30 bg-green/10 px-2 py-0.5 font-mono text-[0.62rem] text-green">
-                    Lead: {topic.assignedMember} · {topic.roleTag}
+                    Researcher: {topic.assignedMember} · {topic.roleTag}
                   </span>
                 </div>
                 <h2 className="mt-2 font-display text-2xl font-bold text-paper sm:text-3xl">

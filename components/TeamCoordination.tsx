@@ -10,12 +10,12 @@ export function TeamCoordination() {
       {/* Team Matrix Grid */}
       <div className="grid gap-6 md:grid-cols-3">
         {teamMembers.map((member, idx) => (
-          <Reveal key={member.name} delay={idx * 0.08}>
+          <Reveal key={`${member.name}-${idx}`} delay={idx * 0.08}>
             <div className="group flex h-full flex-col justify-between rounded-3xl border border-line bg-gradient-to-b from-card via-panel to-ink p-6 backdrop-blur-xl transition-all duration-300 hover:border-blue/50 hover:shadow-card-glass md:p-7">
               <div>
                 {/* Header Badge */}
                 <div className="flex items-center justify-between border-b border-line/60 pb-3 font-mono text-[0.68rem]">
-                  <span className="font-bold text-blue">INVESTIGATOR 0{idx + 1}</span>
+                  <span className="font-bold text-blue">RESEARCH DIVISION 0{idx + 1}</span>
                   <span className="rounded-full border border-green/30 bg-green/10 px-2.5 py-0.5 text-green">
                     AUTHOR ID: {member.regNo}
                   </span>
@@ -33,7 +33,7 @@ export function TeamCoordination() {
                 <div className="mt-4 rounded-xl border border-blue/30 bg-blue/5 p-3.5 text-xs">
                   <div className="flex items-center gap-1.5 font-mono text-[0.65rem] font-bold text-blue">
                     <Clock size={12} />
-                    BRIEFING ROLE ({member.presentationTiming})
+                    BRIEFING SLOT ({member.presentationTiming})
                   </div>
                   <p className="mt-1 text-paper/90 font-medium text-[0.78rem]">
                     {member.presentationSlot}
@@ -72,8 +72,8 @@ export function TeamCoordination() {
               </div>
 
               <div className="mt-6 border-t border-line/40 pt-3 flex items-center justify-between font-mono text-[0.65rem] text-quiet">
-                <span>AUTHORSHIP PARITY</span>
-                <span className="text-green font-semibold">100% COLLABORATIVE EQUITY</span>
+                <span>AUTHORSHIP STATUS</span>
+                <span className="text-green font-semibold">SOLE RESEARCH LEAD</span>
               </div>
             </div>
           </Reveal>

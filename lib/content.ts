@@ -327,7 +327,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Synthetic Reality & Epistemic Risk",
     subtitle: "The Collapse of Perceptual Evidence & Sensory Trust",
     pillar: "Epistemic & Truth",
-    assignedMember: "Chris Kevin A (Lead)",
+    assignedMember: "Chris Kevin A",
     roleTag: "Lead Epistemic Researcher",
     coreThesis:
       "When seeing and hearing no longer constitute believing, the epistemic foundation of democracy and shared empirical truth fractures, inviting universal reality apathy.",
@@ -409,7 +409,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Authorship, Creativity & Intellectual Labor",
     subtitle: "The Great Ingestion Crisis & The Alienation of Human Craft",
     pillar: "Labor & Creativity",
-    assignedMember: "Sandhiya M",
+    assignedMember: "Chris Kevin A",
     roleTag: "Intellectual Property & Labor Analyst",
     coreThesis:
       "Generative models represent the mass enclosure and expropriation of collective human creative labor, transforming living cultural commons into proprietary corporate capital.",
@@ -450,7 +450,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Moral Status of Generated Content & Personas",
     subtitle: "Sentience Illusions, Affective Fetishism & Accountability Evasion",
     pillar: "Labor & Creativity",
-    assignedMember: "Sandhiya M",
+    assignedMember: "Chris Kevin A",
     roleTag: "Philosophical & Affective Ethics Lead",
     coreThesis:
       "Anthropomorphic generative personas create dangerous illusions of sentience that exploit human empathy, while corporations weaponize 'AI autonomy' to deflect corporate liability for systemic harms.",
@@ -491,7 +491,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "AI in Warfare & Algorithmic Propaganda",
     subtitle: "Autonomous Cognitive Warfare & Battlefield Reality Distortion",
     pillar: "Warfare & Geopolitics",
-    assignedMember: "Karthik R",
+    assignedMember: "Chris Kevin A",
     roleTag: "Geopolitical Security & Defense Analyst",
     coreThesis:
       "The militarization of generative AI collapses the distinction between peacetime information operations and active kinetic warfare, accelerating decision cycles beyond human cognitive oversight.",
@@ -532,7 +532,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Ethics of Global AI Governance",
     subtitle: "Frontier Model Oversight, Compute Cartels & Regulatory Capture",
     pillar: "Warfare & Geopolitics",
-    assignedMember: "Karthik R",
+    assignedMember: "Chris Kevin A",
     roleTag: "International AI Policy Specialist",
     coreThesis:
       "Global governance is currently caught between the imperial regulatory ambition of the Global North, corporate regulatory capture, and the total disenfranchisement of developing nations.",
@@ -573,7 +573,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Cultural Pluralism in AI Ethics",
     subtitle: "Algorithmic Monoculture & Epistemic Coloniality",
     pillar: "Global Justice & Governance",
-    assignedMember: "Chris Kevin A (Lead)",
+    assignedMember: "Chris Kevin A",
     roleTag: "Lead Epistemic Researcher",
     coreThesis:
       "Generative models trained predominantly on English-language Western internet data universalize a narrow set of values, homogenizing human cultural diversity into algorithmic monoculture.",
@@ -614,7 +614,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Global North–South Asymmetries",
     subtitle: "Ghost Work, Toxic Scrubbing & Ecological Extraction",
     pillar: "Global Justice & Governance",
-    assignedMember: "Sandhiya M",
+    assignedMember: "Chris Kevin A",
     roleTag: "Political Economy & Labor Analyst",
     coreThesis:
       "Generative AI's illusion of clean technological magic relies upon brutal human exploitation and ecological extraction systematically offloaded onto the Global South.",
@@ -655,7 +655,7 @@ export const unit5Topics: Unit5Topic[] = [
     title: "Limits of Universal Ethical Frameworks",
     subtitle: "From Silicon Valley Universalism to Pluriversal AI Ethics",
     pillar: "Global Justice & Governance",
-    assignedMember: "Chris Kevin A (Lead)",
+    assignedMember: "Chris Kevin A",
     roleTag: "Lead Epistemic Researcher",
     coreThesis:
       "Top-down 'universal' ethical declarations produce sterile compliance checklists that mask underlying power asymmetries; genuine responsibility requires pluriversal, context-embedded accountability.",
@@ -711,52 +711,52 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Chris Kevin A",
     regNo: "2460349",
-    role: "Team Lead & Epistemic Systems Architect",
+    role: "Epistemic Systems & Forensic Architect",
     assignedTopics: [
       "01. Synthetic Reality & Epistemic Risk",
       "02. Ethics of Misinformation & Deepfakes",
       "07. Cultural Pluralism in AI Ethics",
-      "09. Limits of Universal Ethical Frameworks",
     ],
-    presentationSlot: "Opening & Epistemic Risks + Governance Synthesis",
-    presentationTiming: "0:00 - 2:15 & 5:45 - 6:45",
+    presentationSlot: "Opening, Epistemic Risk & Forensic Provenance",
+    presentationTiming: "0:00 - 2:30",
     primaryDeliverables: [
       "Digital Portfolio Architecture & Next.js Engine",
       "Deepfake Forensic & Provenance Inspector Component",
-      "2-3 Page Academic Ethical Analysis Document (Lead Author)",
+      "Academic Ethical Analysis Monograph (Lead Author)",
       "Unit-5 Epistemic Risk & Pluriversal Ethics Modules",
     ],
     color: "blue",
   },
   {
-    name: "Sandhiya M",
-    regNo: "2460358",
-    role: "Labor Economist & Affective Computing Lead",
+    name: "Chris Kevin A",
+    regNo: "2460349",
+    role: "Political Economy & Labor Justice Analyst",
     assignedTopics: [
       "03. Authorship, Creativity & Intellectual Labor",
       "04. Moral Status of Generated Content",
       "08. Global North–South Asymmetries",
     ],
-    presentationSlot: "Intellectual Labor, Copyright & North-South Asymmetries",
-    presentationTiming: "2:15 - 4:00",
+    presentationSlot: "Intellectual Labor, Copyright & Global Asymmetries",
+    presentationTiming: "2:30 - 4:45",
     primaryDeliverables: [
       "Global North-South Asymmetry Labor Ledger",
       "Intellectual Labor & Copyright Fair Use Case Study",
       "Awareness Posters: Ghost Work & The Kenyan Annotators",
-      "Responsible Generative AI Guidelines (Labor & Attribution Pillars)",
+      "Responsible Generative AI Guidelines (Labor & Attribution)",
     ],
     color: "green",
   },
   {
-    name: "Karthik R",
-    regNo: "2460365",
-    role: "Geopolitics & Algorithmic Defense Analyst",
+    name: "Chris Kevin A",
+    regNo: "2460349",
+    role: "Geopolitical Defense & Pluriversal Policy Analyst",
     assignedTopics: [
       "05. AI in Warfare & Algorithmic Propaganda",
       "06. Ethics of Global AI Governance",
+      "09. Limits of Universal Ethical Frameworks",
     ],
     presentationSlot: "Warfare, Algorithmic PsyOps & Global Governance Treaties",
-    presentationTiming: "4:00 - 5:45",
+    presentationTiming: "4:45 - 7:00",
     primaryDeliverables: [
       "AI in Warfare & Targeting Systems Investigation (Lavender & Gospel)",
       "EU AI Act & UN Global Digital Compact Comparative Analysis",
@@ -1007,9 +1007,9 @@ export const presentationSlides: PresentationSlide[] = [
   {
     id: 1,
     timeRange: "0:00 - 1:00",
-    speaker: "Chris Kevin A (Lead)",
+    speaker: "Chris Kevin A",
     title: "The Synthetic Horizon: Truth, Creativity & Global Ethical Order",
-    subtitle: "A Research Collective Investigation into Generative Systems & Societal Impact",
+    subtitle: "A Comprehensive Investigation into Generative Systems & Societal Impact",
     keyPoints: [
       "Welcome & introduction: Moving beyond predictive AI into Generative Frontier Governance.",
       "The central ethical paradox: Synthetic reality has reduced the marginal cost of creating text, voice, and imagery to zero.",
@@ -1017,7 +1017,7 @@ export const presentationSlides: PresentationSlide[] = [
     ],
     visualCallout: "The 4 Foundational Pillars: Epistemic Truth · Creative Labor · Warfare · Global Order",
     speakerNotes:
-      "Good morning distinguished faculty and colleagues. Today, our research collective presents our investigation into Generative AI, Truth, Creativity, and the Global Ethical Order. When predictive AI models make errors, they misclassify an input. But when Generative AI malfunctions or is abused, it synthesizes an alternate reality—eroding our shared epistemological bedrock, enclosing human creative labor, and reinforcing global colonial power asymmetries.",
+      "Good morning distinguished faculty and colleagues. Today, I present this comprehensive investigation into Generative AI, Truth, Creativity, and the Global Ethical Order. When predictive AI models make errors, they misclassify an input. But when Generative AI malfunctions or is abused, it synthesizes an alternate reality—eroding our shared epistemological bedrock, enclosing human creative labor, and reinforcing global colonial power asymmetries.",
   },
   {
     id: 2,
@@ -1037,7 +1037,7 @@ export const presentationSlides: PresentationSlide[] = [
   {
     id: 3,
     timeRange: "2:15 - 3:30",
-    speaker: "Sandhiya M",
+    speaker: "Chris Kevin A",
     title: "Authorship, Intellectual Labor & Moral Status",
     subtitle: "Topics 03 & 04: The Great Ingestion Crisis & The Exploitation of Craft",
     keyPoints: [
@@ -1047,12 +1047,12 @@ export const presentationSlides: PresentationSlide[] = [
     ],
     visualCallout: "The Fair Use Boundary Matrix & Artist Defense Tools (Nightshade/Glaze)",
     speakerNotes:
-      "Thank you Chris. Turning to Topics 3 and 4, we must confront what generative models actually are: computational compression engines built upon the uncompensated expropriation of human culture. Millions of living freelance artists find their life's work ingested to build systems that automate them out of livelihood. We reject the defense of 'Fair Use' when the model acts as a direct market substitute. Simultaneously, companies use affective anthropomorphism to pretend models have 'feelings', deflecting corporate liability for harms. Moral agency belongs strictly to the humans deploying the model.",
+      "Turning now to Topics 3 and 4, we must confront what generative models actually are: computational compression engines built upon the uncompensated expropriation of human culture. Millions of living freelance artists find their life's work ingested to build systems that automate them out of livelihood. We reject the defense of 'Fair Use' when the model acts as a direct market substitute. Simultaneously, companies use affective anthropomorphism to pretend models have 'feelings', deflecting corporate liability for harms. Moral agency belongs strictly to the humans deploying the model.",
   },
   {
     id: 4,
     timeRange: "3:30 - 4:45",
-    speaker: "Sandhiya M",
+    speaker: "Chris Kevin A",
     title: "Global North-South Asymmetries: The Hidden Ghost Work",
     subtitle: "Topic 08: The $1.50/hr Kenyan Annotators & Compute Resource Extraction",
     keyPoints: [
@@ -1067,7 +1067,7 @@ export const presentationSlides: PresentationSlide[] = [
   {
     id: 5,
     timeRange: "4:45 - 5:45",
-    speaker: "Karthik R",
+    speaker: "Chris Kevin A",
     title: "AI in Warfare & Geopolitical Governance",
     subtitle: "Topics 05 & 06: Algorithmic Target Generation & Compute Cartels",
     keyPoints: [
@@ -1082,7 +1082,7 @@ export const presentationSlides: PresentationSlide[] = [
   {
     id: 6,
     timeRange: "5:45 - 6:30",
-    speaker: "Chris Kevin A (Lead)",
+    speaker: "Chris Kevin A",
     title: "Cultural Pluralism & The Limits of Universal Frameworks",
     subtitle: "Topics 07 & 09: From Western Hegemony to Pluriversal AI Ethics",
     keyPoints: [
@@ -1097,7 +1097,7 @@ export const presentationSlides: PresentationSlide[] = [
   {
     id: 7,
     timeRange: "6:30 - 7:00",
-    speaker: "All Team Members",
+    speaker: "Chris Kevin A",
     title: "Conclusion: The Responsible Generative Manifesto",
     subtitle: "Auditable Governance · Human Dignity · Epistemic Sovereignty · Q&A",
     keyPoints: [
@@ -1107,7 +1107,7 @@ export const presentationSlides: PresentationSlide[] = [
     ],
     visualCallout: "Live Links to Interactive Artifacts, 3-Page Academic Paper, and Codebase",
     speakerNotes:
-      "To conclude, our Digital Ethics Portfolio demonstrates that ethics in Generative AI is not a post-hoc disclaimer. It must be engineered into cryptographic provenance, codified in international labor treaties, and bounded by non-negotiable human authority. We invite you to explore our interactive artifacts, our 2-3 page academic paper, and our live forensic tools. Thank you, and we welcome your questions.",
+      "To conclude, this Digital Ethics Portfolio demonstrates that ethics in Generative AI is not a post-hoc disclaimer. It must be engineered into cryptographic provenance, codified in international labor treaties, and bounded by non-negotiable human authority. I invite you to explore the interactive artifacts, the 2-3 page academic paper, and the live forensic tools. Thank you, and I welcome your questions.",
   },
 ];
 
@@ -1118,7 +1118,7 @@ export const presentationSlides: PresentationSlide[] = [
 export const academicPaper = {
   title:
     "The Synthetic Enclosure: Epistemic Collapse, Labor Dispossession, and the Imperative for Pluriversal AI Governance",
-  authors: "Chris Kevin A (2460349), Sandhiya M (2460358), Karthik R (2460365)",
+  authors: "Chris Kevin A (Author ID: 2460349)",
   department: "Department of Computer Science and Engineering",
   course: "Specialized Research in Digital Ethics & Algorithmic Governance",
   academicYear: "2026",

@@ -97,7 +97,7 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.34 }}
               className="max-w-2xl text-lg leading-relaxed text-muted md:text-[1.125rem]"
             >
-              An investigative research initiative by <strong className="font-semibold text-paper">Chris Kevin A</strong>, <strong className="font-semibold text-paper">Sandhiya M</strong>, and <strong className="font-semibold text-paper">Karthik R</strong> interrogating the collapse of sensory evidence, intellectual labor enclosure, algorithmic warfare, and Global North–South asymmetries in Generative AI.
+              An investigative research initiative authored and conducted by <strong className="font-semibold text-paper">Chris Kevin A</strong> interrogating the collapse of sensory evidence, intellectual labor enclosure, algorithmic warfare, and Global North–South asymmetries in Generative AI.
             </MotionDiv>
 
             <MotionDiv

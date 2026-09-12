@@ -37,7 +37,7 @@ export default function AboutPage() {
               Computer Science & Engineering · Author ID: 2460349 · Christ University
             </p>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg sm:leading-8">
-              Welcome to the <strong>Veritas // Synthetica Digital Ethics Observatory</strong>, an academic research initiative led by <strong>Chris Kevin A</strong> in collaboration with research partners <strong>Sandhiya M</strong> and <strong>Karthik R</strong>. Our work investigates the societal impact and governance frontiers of Generative Artificial Intelligence—probing epistemic risk, deepfakes, copyright dispossession, cognitive warfare, and Global North–South labor extraction.
+              Welcome to the <strong>Veritas // Synthetica Digital Ethics Observatory</strong>, an academic research portfolio independently conducted, developed, and authored by <strong>Chris Kevin A</strong>. This investigation examines the societal impact and governance frontiers of Generative Artificial Intelligence—probing epistemic risk, deepfakes, copyright dispossession, cognitive warfare, and Global North–South labor extraction.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/presentation" className="button-primary group">
@@ -109,12 +109,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Coordination & Equal Participation */}
+      {/* Research Divisions & Investigative Pillars */}
       <section className="mx-auto max-w-7xl py-20 border-b border-line">
         <SectionHeader
-          eyebrow="RESEARCH DIRECTORS & INVESTIGATIVE DIVISIONS"
-          title="Collaborative Research & Authorship Parity"
-          copy="Demonstrating collaborative equity across the three student investigators, with distinct domain ownership and executive briefing roles."
+          eyebrow="RESEARCH ARCHITECTURE & INVESTIGATIVE DIVISIONS"
+          title="Investigative Divisions & Research Stewardship"
+          copy="Documenting distinct domain leadership, executive briefing timing allocations, and research deliverable contributions directed by Chris Kevin A."
         />
         <div className="mt-12">
           <TeamCoordination />

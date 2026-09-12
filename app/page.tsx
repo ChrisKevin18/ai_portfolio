@@ -181,12 +181,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 7: RESEARCH DIRECTORS & INVESTIGATIVE DIVISIONS */}
+      {/* SECTION 7: RESEARCH DIVISIONS & DIRECTED SPECIALIZATIONS */}
       <section id="team" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="RESEARCH DIRECTORS & DIVISION STEWARDSHIP"
-          title="Collaborative Authorship & Specialization Parity"
-          copy="Documenting distinct domain leadership, presentation timing allocations, and research deliverable contributions across the collective."
+          eyebrow="RESEARCH DIVISIONS & DOMAIN STEWARDSHIP"
+          title="Investigative Divisions & Domain Stewardship"
+          copy="Documenting distinct research specializations, executive briefing timing allocations, and core deliverable contributions directed by Chris Kevin A."
         />
         <div className="mt-12">
           <TeamCoordination />
