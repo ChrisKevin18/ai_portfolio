@@ -1,15 +1,17 @@
 "use client";
 
-import { Menu, X, ArrowUpRight, ShieldCheck } from "lucide-react";
+import { Menu, X, ShieldCheck, Presentation } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "/#work", label: "WORK", match: (path: string) => path === "/" },
-  { href: "/framework", label: "FRAMEWORK", match: (path: string) => path.startsWith("/framework") },
-  { href: "/about", label: "ABOUT", match: (path: string) => path.startsWith("/about") },
-  { href: "/reflection", label: "REFLECTION", match: (path: string) => path.startsWith("/reflection") },
+  { href: "/#unit5", label: "UNIT-5 TOPICS", match: (path: string) => path === "/#unit5" },
+  { href: "/#forensics", label: "LAB & FORENSICS", match: (path: string) => path === "/#forensics" },
+  { href: "/#posters", label: "POSTERS", match: (path: string) => path === "/#posters" },
+  { href: "/analysis", label: "ETHICAL PAPER", match: (path: string) => path.startsWith("/analysis") },
+  { href: "/presentation", label: "5-7M DECK", match: (path: string) => path.startsWith("/presentation") },
+  { href: "/about", label: "TEAM & ABOUT", match: (path: string) => path.startsWith("/about") },
 ];
 
 export function Navbar() {
@@ -37,7 +39,7 @@ export function Navbar() {
     <header
       className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-line bg-ink/80 backdrop-blur-2xl py-3 shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+          ? "border-b border-line bg-ink/85 backdrop-blur-2xl py-3 shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
           : "bg-transparent py-5"
       }`}
     >
@@ -54,7 +56,7 @@ export function Navbar() {
           </Link>
           <span className="hidden items-center gap-1.5 rounded-full border border-green/30 bg-green/10 px-2.5 py-0.5 text-[0.62rem] font-mono font-medium text-green lg:inline-flex">
             <span className="h-1.5 w-1.5 rounded-full bg-green animate-pulse" />
-            RESPONSIBLE AI · 2026
+            CIA 3 · UNIT-5 GEN-AI ETHICS
           </span>
         </div>
 
@@ -65,7 +67,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`rounded-full px-4 py-1.5 font-semibold transition-all duration-200 focus-ring ${
+                className={`rounded-full px-3.5 py-1.5 font-semibold transition-all duration-200 focus-ring ${
                   isActive
                     ? "bg-white/10 text-paper shadow-sm"
                     : "text-muted hover:text-paper hover:bg-white/[0.04]"
@@ -79,10 +81,11 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            href="/about"
-            className="hidden items-center gap-2 rounded-full border border-line bg-white/[0.03] px-4 py-2 font-mono text-[0.68rem] font-semibold tracking-[0.16em] text-paper transition-all duration-300 hover:border-blue/60 hover:bg-blue/10 hover:shadow-blue-glow focus-ring md:flex"
+            href="/presentation"
+            className="hidden items-center gap-2 rounded-full border border-blue/40 bg-blue/15 px-4 py-2 font-mono text-[0.68rem] font-semibold tracking-[0.14em] text-paper transition-all duration-300 hover:border-blue hover:bg-blue/25 hover:shadow-blue-glow focus-ring md:flex"
           >
-            ACADEMIC PROFILE <ArrowUpRight size={13} aria-hidden />
+            <Presentation size={13} className="text-blue" />
+            <span>START 5-7M PRESENTATION</span>
           </Link>
           <button
             type="button"
@@ -102,7 +105,7 @@ export function Navbar() {
             <div className="mb-2 flex items-center justify-between pb-3 border-b border-line/60">
               <span className="font-mono text-xs text-muted">NAVIGATION</span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-green/30 bg-green/10 px-2 py-0.5 text-[0.62rem] font-mono text-green">
-                <span className="h-1.5 w-1.5 rounded-full bg-green" /> 2026 Academic Portfolio
+                <span className="h-1.5 w-1.5 rounded-full bg-green" /> CIA 3 Digital Ethics
               </span>
             </div>
             {links.map((link) => {
@@ -124,11 +127,11 @@ export function Navbar() {
               );
             })}
             <Link
-              href="/about"
+              href="/presentation"
               onClick={() => setOpen(false)}
-              className="mt-3 flex items-center justify-center gap-2 rounded-full border border-line bg-white/[0.04] px-5 py-3 font-mono text-[0.72rem] font-semibold tracking-[0.14em] text-paper transition hover:border-blue/60 focus-ring"
+              className="mt-3 flex items-center justify-center gap-2 rounded-full border border-blue/50 bg-blue/20 px-5 py-3 font-mono text-[0.72rem] font-semibold tracking-[0.14em] text-paper transition hover:border-blue focus-ring"
             >
-              ACADEMIC PROFILE <ArrowUpRight size={15} aria-hidden />
+              <Presentation size={15} /> START 5-7M PRESENTATION
             </Link>
           </div>
         </div>
@@ -136,4 +139,3 @@ export function Navbar() {
     </header>
   );
 }
-

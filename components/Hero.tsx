@@ -1,30 +1,51 @@
 "use client";
 
-import { ArrowRight, Sparkles, Shield, Cpu, Scale, FileText } from "lucide-react";
+import { ArrowRight, Sparkles, ShieldAlert, Cpu, Scale, Presentation, BookOpen, Globe } from "lucide-react";
 import Link from "next/link";
 import { MotionDiv, MotionSpan } from "@/components/Motion";
 
 const words = [
-  { label: "ETHICAL AI DESIGN", icon: Scale },
-  { label: "DATA GOVERNANCE", icon: Shield },
-  { label: "HUMAN OVERSIGHT", icon: Cpu },
-  { label: "TRACE FRAMEWORK", icon: FileText },
+  { label: "SYNTHETIC REALITY", icon: EyeIcon },
+  { label: "EPISTEMIC RISK", icon: ShieldAlert },
+  { label: "INTELLECTUAL LABOR", icon: Scale },
+  { label: "GLOBAL NORTH-SOUTH JUSTICE", icon: Globe },
+  { label: "PLURIVERSAL GOVERNANCE", icon: Cpu },
 ];
+
+function EyeIcon(props: { size: number; className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={props.size}
+      height={props.size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={props.className}
+    >
+      <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
 
 const metrics = [
-  { number: "04", label: "CASE STUDIES", detail: "Healthcare, Platforms, Logistics, Lending" },
-  { number: "07", label: "ETHICAL PRINCIPLES", detail: "Fairness, Privacy, Safety, Accountability & more" },
-  { number: "TRACE", label: "DECISION TEST", detail: "Task, Risk, Authority, Contestability, Evidence" },
-  { number: "100%", label: "HUMAN OVERSIGHT", detail: "Never unmonitored automated execution" },
+  { number: "09", label: "UNIT-5 TOPICS", detail: "Epistemic Risk, Labor, Warfare, Pluralism" },
+  { number: "04", label: "DELIVERABLES", detail: "Portfolio, 3p Paper, 5-7m Deck, Artifacts" },
+  { number: "C2PA", label: "FORENSIC TOOL", detail: "Hardware Provenance & Deepfake Inspector" },
+  { number: "100%", label: "TEAM EQUALITY", detail: "Mandatory Participatory Coordination" },
 ];
 
-const headline = ["Designing Intelligent", "Systems That Remain", "Accountable to People."];
+const headline = ["When Reality Becomes", "Synthesized, Who Governs", "The Truth?"];
 
 export function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden pt-28 pb-20">
       {/* Background ambient lighting */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_25%_18%,rgba(79,140,255,0.15),transparent_42%),radial-gradient(circle_at_85%_55%,rgba(85,214,190,0.09),transparent_40%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_25%_18%,rgba(79,140,255,0.18),transparent_44%),radial-gradient(circle_at_85%_55%,rgba(85,214,190,0.10),transparent_42%)]" />
 
       {/* Decorative ambient grid overlay */}
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)]" />
@@ -39,10 +60,10 @@ export function Hero() {
         >
           <span className="pill-badge border-blue/30 bg-blue/10 text-blue">
             <Sparkles size={12} className="animate-pulse" />
-            ACADEMIC RESEARCH PORTFOLIO
+            CIA 3 – COMPONENT 2 · DIGITAL ETHICS PORTFOLIO
           </span>
-          <span className="pill-badge text-quiet">
-            COMPUTER SCIENCE & ENGINEERING · 2026
+          <span className="pill-badge border-green/30 bg-green/10 text-green">
+            UNIT-5: GENERATIVE AI, TRUTH, CREATIVITY & GLOBAL ETHICAL ORDER
           </span>
         </MotionDiv>
 
@@ -59,7 +80,7 @@ export function Hero() {
               >
                 {index === 1 ? (
                   <>
-                    Systems <span className="italic bg-gradient-to-r from-paper via-blue/90 to-green bg-clip-text text-transparent">That Remain</span>
+                    Synthesized, <span className="italic bg-gradient-to-r from-paper via-blue/90 to-green bg-clip-text text-transparent">Who Governs</span>
                   </>
                 ) : (
                   line
@@ -76,20 +97,26 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.34 }}
               className="max-w-2xl text-lg leading-relaxed text-muted md:text-[1.125rem]"
             >
-              An academic portfolio by <strong className="font-semibold text-paper">Chris Kevin A</strong> examining clinical diagnostics, data power audits, logistical fairness, and autonomous credit limits through practical Responsible AI frameworks.
+              An academic research portfolio by <strong className="font-semibold text-paper">Chris Kevin A</strong>, <strong className="font-semibold text-paper">Sandhiya M</strong>, and <strong className="font-semibold text-paper">Karthik R</strong> interrogating the collapse of sensory evidence, intellectual labor enclosure, algorithmic warfare, and Global North–South asymmetries in Generative AI.
             </MotionDiv>
 
             <MotionDiv
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.65, delay: 0.42 }}
-              className="flex flex-wrap items-center gap-3 sm:flex-nowrap"
+              className="flex flex-wrap items-center gap-3"
             >
-              <Link href="/#work" className="button-primary group">
-                EXPLORE WORK <ArrowRight className="transition duration-200 group-hover:translate-x-1" size={15} aria-hidden />
+              <Link href="/presentation" className="button-primary group">
+                <Presentation size={15} />
+                <span>5-7M DECK</span>
+                <ArrowRight className="transition duration-200 group-hover:translate-x-1" size={15} aria-hidden />
               </Link>
-              <Link href="/framework" className="button-secondary">
-                VIEW FRAMEWORK
+              <Link href="/analysis" className="button-secondary">
+                <BookOpen size={14} />
+                <span>READ 3-PAGE PAPER</span>
+              </Link>
+              <Link href="/#unit5" className="rounded-full border border-line bg-white/[0.02] px-5 py-3 font-mono text-[0.72rem] font-semibold text-muted hover:text-paper hover:border-line-bright transition">
+                UNIT-5 TOPICS
               </Link>
             </MotionDiv>
           </div>
@@ -125,7 +152,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.62 }}
             className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-[0.68rem] font-medium tracking-[0.16em] text-quiet"
           >
-            <span className="text-muted/60">CORE FOCUS:</span>
+            <span className="text-muted/60">RESEARCH PILLARS:</span>
             {words.map((item) => {
               const Icon = item.icon;
               return (
@@ -141,4 +168,3 @@ export function Hero() {
     </section>
   );
 }
-
