@@ -1009,15 +1009,15 @@ export const presentationSlides: PresentationSlide[] = [
     timeRange: "0:00 - 1:00",
     speaker: "Chris Kevin A (Lead)",
     title: "The Synthetic Horizon: Truth, Creativity & Global Ethical Order",
-    subtitle: "CIA 3 Digital Ethics Portfolio Overview · Unit-5 Core Investigation",
+    subtitle: "A Research Collective Investigation into Generative Systems & Societal Impact",
     keyPoints: [
       "Welcome & introduction: Moving beyond predictive AI into Generative Frontier Governance.",
       "The central ethical paradox: Synthetic reality has reduced the marginal cost of creating text, voice, and imagery to zero.",
-      "Unit-5 scope: Epistemic risk, intellectual labor exploitation, warfare propaganda, and Global North-South justice.",
+      "Core research scope: Epistemic risk, intellectual labor exploitation, warfare propaganda, and Global North-South justice.",
     ],
-    visualCallout: "The 4 Pillars of Unit-5: Epistemic Truth · Creative Labor · Warfare · Global Order",
+    visualCallout: "The 4 Foundational Pillars: Epistemic Truth · Creative Labor · Warfare · Global Order",
     speakerNotes:
-      "Good morning professors and colleagues. Today, our team presents our CIA 3 Digital Ethics Portfolio on Unit-5: Generative AI, Truth, Creativity, and the Global Ethical Order. When predictive AI models make errors, they misclassify an input. But when Generative AI malfunctions or is abused, it synthesizes an alternate reality—eroding our shared epistemological bedrock, enclosing human creative labor, and reinforcing global colonial power asymmetries.",
+      "Good morning distinguished faculty and colleagues. Today, our research collective presents our investigation into Generative AI, Truth, Creativity, and the Global Ethical Order. When predictive AI models make errors, they misclassify an input. But when Generative AI malfunctions or is abused, it synthesizes an alternate reality—eroding our shared epistemological bedrock, enclosing human creative labor, and reinforcing global colonial power asymmetries.",
   },
   {
     id: 2,
@@ -1120,7 +1120,7 @@ export const academicPaper = {
     "The Synthetic Enclosure: Epistemic Collapse, Labor Dispossession, and the Imperative for Pluriversal AI Governance",
   authors: "Chris Kevin A (2460349), Sandhiya M (2460358), Karthik R (2460365)",
   department: "Department of Computer Science and Engineering",
-  course: "Digital Ethics & Algorithmic Governance (CIA 3 – Component 2)",
+  course: "Specialized Research in Digital Ethics & Algorithmic Governance",
   academicYear: "2026",
   abstract:
     "The rapid proliferation of multimodal generative foundation models marks a profound epistemological and socioeconomic transformation. While corporate narratives frame generative artificial intelligence (GenAI) as a democratic leap in creativity and productivity, this paper presents a critical political-economy and epistemic critique of synthetic technologies. We argue that GenAI induces three structural crises: (1) an epistemic breakdown characterized by the 'Liar's Dividend' and the erosion of shared empirical reality; (2) the systematic expropriation of intellectual labor and cultural commons alongside the physical and psychological exploitation of Global South data annotators; and (3) the imposition of a Western algorithmic monoculture through top-down universalist ethics. Drawing upon epistemic philosophy, labor economics, and decolonial critique, we propose a tripartite governance paradigm grounded in cryptographic provenance (C2PA), international labor equity mandates, and pluriversal algorithmic sovereignty.",

@@ -73,7 +73,7 @@ export function GenAILab() {
               RESPONSIBLE AI TOOL USAGE
             </span>
             <span className="pill-badge border-blue/30 bg-blue/10 text-blue">
-              RUBRIC 4: EFFECTIVE PRACTICE
+              EMPIRICAL BIAS AUDITING
             </span>
           </div>
           <h2 className="mt-3 font-display text-2xl font-bold tracking-tight text-paper sm:text-3xl md:text-4xl">

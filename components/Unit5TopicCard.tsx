@@ -23,7 +23,7 @@ export function Unit5TopicCard({ topic }: { topic: Unit5Topic }) {
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-line/60 pb-4">
             <div className="flex items-center gap-2">
               <span className="font-mono text-xs font-bold text-blue">
-                TOPIC {topic.number}
+                DOSSIER {topic.number}
               </span>
               <span className="rounded-full border border-line bg-white/[0.03] px-2.5 py-0.5 font-mono text-[0.62rem] text-quiet">
                 {topic.pillar}
@@ -86,7 +86,7 @@ export function Unit5TopicCard({ topic }: { topic: Unit5Topic }) {
           >
             <span className="flex items-center gap-1.5">
               <BookOpen size={13} className="text-blue" />
-              <span>READ CRITICAL ETHICAL AUTOPSY</span>
+              <span>INSPECT RESEARCH DOSSIER</span>
             </span>
             <ChevronRight
               size={14}
@@ -113,13 +113,13 @@ export function Unit5TopicCard({ topic }: { topic: Unit5Topic }) {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-mono text-xs font-bold text-blue">
-                    UNIT-5 · TOPIC {topic.number}
+                    INVESTIGATION DOSSIER {topic.number}
                   </span>
                   <span className="rounded-full border border-line bg-white/[0.04] px-2.5 py-0.5 font-mono text-[0.65rem] text-quiet">
                     {topic.pillar}
                   </span>
                   <span className="rounded-full border border-green/30 bg-green/10 px-2 py-0.5 font-mono text-[0.62rem] text-green">
-                    Researcher: {topic.assignedMember} ({topic.roleTag})
+                    Lead: {topic.assignedMember} · {topic.roleTag}
                   </span>
                 </div>
                 <h2 className="mt-2 font-display text-2xl font-bold text-paper sm:text-3xl">

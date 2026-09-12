@@ -143,7 +143,7 @@ export function AwarenessGallery() {
             {/* Modal Bottom Actions */}
             <div className="mt-6 flex flex-wrap items-center justify-between gap-3 pt-2">
               <span className="font-mono text-[0.68rem] text-quiet">
-                CIA 3 Awareness Artifact · Christ University · 2026
+                Public Digital Literacy Initiative · Veritas Synthetica · 2026
               </span>
               <button
                 type="button"

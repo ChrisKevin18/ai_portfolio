@@ -55,7 +55,7 @@ export default function EthicalAnalysisPage() {
         {/* Paper Header */}
         <header className="border-b border-line pb-10 text-center">
           <span className="pill-badge border-blue/30 bg-blue/10 text-blue mb-4">
-            CIA 3 – COMPONENT 2 · FORMAL ETHICAL ANALYSIS (2–3 PAGES)
+            ACADEMIC RESEARCH WORKING PAPER · 2026
           </span>
 
           <h1 className="mt-3 font-display text-3xl font-bold tracking-tight text-paper sm:text-4xl md:text-5xl md:leading-tight max-w-4xl mx-auto">

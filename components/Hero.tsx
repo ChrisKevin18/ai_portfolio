@@ -8,7 +8,7 @@ const words = [
   { label: "SYNTHETIC REALITY", icon: EyeIcon },
   { label: "EPISTEMIC RISK", icon: ShieldAlert },
   { label: "INTELLECTUAL LABOR", icon: Scale },
-  { label: "GLOBAL NORTH-SOUTH JUSTICE", icon: Globe },
+  { label: "GLOBAL SOUTH GHOST WORK", icon: Globe },
   { label: "PLURIVERSAL GOVERNANCE", icon: Cpu },
 ];
 
@@ -33,10 +33,10 @@ function EyeIcon(props: { size: number; className?: string }) {
 }
 
 const metrics = [
-  { number: "09", label: "UNIT-5 TOPICS", detail: "Epistemic Risk, Labor, Warfare, Pluralism" },
-  { number: "04", label: "DELIVERABLES", detail: "Portfolio, 3p Paper, 5-7m Deck, Artifacts" },
-  { number: "C2PA", label: "FORENSIC TOOL", detail: "Hardware Provenance & Deepfake Inspector" },
-  { number: "100%", label: "TEAM EQUALITY", detail: "Mandatory Participatory Coordination" },
+  { number: "09", label: "INVESTIGATIVE DOSSIERS", detail: "Epistemic breakdown, labor enclosure, cyber-warfare & pluriversal ethics" },
+  { number: "C2PA", label: "PROVENANCE FORENSICS", detail: "Hardware cryptographic signing & deepfake residual analysis" },
+  { number: "1,200h", label: "GHOST WORK AUDITED", detail: "Empirical investigation into Nairobi and Manila data annotator trauma" },
+  { number: "3-PAGE", label: "RESEARCH MONOGRAPH", detail: "Scholarly publication on synthetic reality and structural governance" },
 ];
 
 const headline = ["When Reality Becomes", "Synthesized, Who Governs", "The Truth?"];
@@ -60,10 +60,10 @@ export function Hero() {
         >
           <span className="pill-badge border-blue/30 bg-blue/10 text-blue">
             <Sparkles size={12} className="animate-pulse" />
-            CIA 3 – COMPONENT 2 · DIGITAL ETHICS PORTFOLIO
+            DIGITAL ETHICS OBSERVATORY · 2026
           </span>
           <span className="pill-badge border-green/30 bg-green/10 text-green">
-            UNIT-5: GENERATIVE AI, TRUTH, CREATIVITY & GLOBAL ETHICAL ORDER
+            TRUTH, CREATIVITY & THE GLOBAL ETHICAL ORDER
           </span>
         </MotionDiv>
 
@@ -97,7 +97,7 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.34 }}
               className="max-w-2xl text-lg leading-relaxed text-muted md:text-[1.125rem]"
             >
-              An academic research portfolio by <strong className="font-semibold text-paper">Chris Kevin A</strong>, <strong className="font-semibold text-paper">Sandhiya M</strong>, and <strong className="font-semibold text-paper">Karthik R</strong> interrogating the collapse of sensory evidence, intellectual labor enclosure, algorithmic warfare, and Global North–South asymmetries in Generative AI.
+              An investigative research initiative by <strong className="font-semibold text-paper">Chris Kevin A</strong>, <strong className="font-semibold text-paper">Sandhiya M</strong>, and <strong className="font-semibold text-paper">Karthik R</strong> interrogating the collapse of sensory evidence, intellectual labor enclosure, algorithmic warfare, and Global North–South asymmetries in Generative AI.
             </MotionDiv>
 
             <MotionDiv
@@ -108,15 +108,15 @@ export function Hero() {
             >
               <Link href="/presentation" className="button-primary group">
                 <Presentation size={15} />
-                <span>5-7M DECK</span>
+                <span>BRIEFING ROOM (7 MIN)</span>
                 <ArrowRight className="transition duration-200 group-hover:translate-x-1" size={15} aria-hidden />
               </Link>
               <Link href="/analysis" className="button-secondary">
                 <BookOpen size={14} />
-                <span>READ 3-PAGE PAPER</span>
+                <span>READ RESEARCH MONOGRAPH</span>
               </Link>
-              <Link href="/#unit5" className="rounded-full border border-line bg-white/[0.02] px-5 py-3 font-mono text-[0.72rem] font-semibold text-muted hover:text-paper hover:border-line-bright transition">
-                UNIT-5 TOPICS
+              <Link href="/#investigations" className="rounded-full border border-line bg-white/[0.02] px-5 py-3 font-mono text-[0.72rem] font-semibold text-muted hover:text-paper hover:border-line-bright transition">
+                9 INVESTIGATIONS
               </Link>
             </MotionDiv>
           </div>
@@ -152,7 +152,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.62 }}
             className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-[0.68rem] font-medium tracking-[0.16em] text-quiet"
           >
-            <span className="text-muted/60">RESEARCH PILLARS:</span>
+            <span className="text-muted/60">CORE THEMES:</span>
             {words.map((item) => {
               const Icon = item.icon;
               return (

@@ -37,10 +37,10 @@ export default function HomePage() {
               </span>
               <div>
                 <span className="font-mono text-[0.65rem] font-bold text-blue block">
-                  DELIVERABLE 03
+                  INTERACTIVE SUITE
                 </span>
                 <span className="font-display text-sm font-bold text-paper">
-                  5–7m Presentation
+                  Briefing Deck (7 Min)
                 </span>
               </div>
             </div>
@@ -57,10 +57,10 @@ export default function HomePage() {
               </span>
               <div>
                 <span className="font-mono text-[0.65rem] font-bold text-green block">
-                  DELIVERABLE 02
+                  SCHOLARLY PAPER
                 </span>
                 <span className="font-display text-sm font-bold text-paper">
-                  3-Page Ethical Paper
+                  Research Monograph
                 </span>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function HomePage() {
               </span>
               <div>
                 <span className="font-mono text-[0.65rem] font-bold text-quiet block">
-                  INTERACTIVE ARTIFACT
+                  LABORATORY TOOL
                 </span>
                 <span className="font-display text-sm font-bold text-paper">
                   Deepfake Inspector
@@ -97,10 +97,10 @@ export default function HomePage() {
               </span>
               <div>
                 <span className="font-mono text-[0.65rem] font-bold text-quiet block">
-                  AWARENESS ARTIFACT
+                  PUBLIC CAMPAIGNS
                 </span>
                 <span className="font-display text-sm font-bold text-paper">
-                  Poster Gallery (04)
+                  Advocacy Posters (04)
                 </span>
               </div>
             </div>
@@ -109,10 +109,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 1: UNIT-5 COMPREHENSIVE CURRICULUM TOPICS */}
-      <section id="unit5" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
+      {/* SECTION 1: INVESTIGATION DOSSIERS */}
+      <section id="investigations" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="UNIT-5 COMPREHENSIVE CURRICULUM"
+          eyebrow="CORE RESEARCH INITIATIVE"
           title="Truth, Creativity, and the Global Ethical Order"
           copy="Nine in-depth academic investigations analyzing epistemic vulnerability, intellectual labor enclosure, cognitive warfare, and non-Western pluriversal governance."
         />
@@ -124,7 +124,7 @@ export default function HomePage() {
       {/* SECTION 2: INTERACTIVE FORENSIC LABORATORY */}
       <section id="forensics" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="INTERACTIVE FORENSIC TOOL"
+          eyebrow="FORENSIC LABORATORY"
           title="Epistemic Forensics & C2PA Provenance Lineage"
           copy="Evaluating perceptual deception, spectral noise residuals, and cryptographic hardware signatures to counter the 'Liar's Dividend'."
         />
@@ -148,9 +148,9 @@ export default function HomePage() {
       {/* SECTION 4: RESPONSIBLE AI TOOL USAGE & PROMPT AUTOPSIES */}
       <section id="lab" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="RESPONSIBLE AI TOOL PRACTICE"
-          title="Prompt Experiments & Ethical Autopsies"
-          copy="Fulfilling Rubric Criterion 4: Rigorously testing model hallucinations, representational harms, and responsible prompt mitigations with verifiable provenance."
+          eyebrow="EMPIRICAL PROMPT AUDITING"
+          title="Model Hallucinations & Ethical Prompt Autopsies"
+          copy="Rigorously interrogating representational harms, Western colonial stereotyping, and responsible prompt mitigations with cryptographic provenance."
         />
         <div className="mt-12">
           <GenAILab />
@@ -160,8 +160,8 @@ export default function HomePage() {
       {/* SECTION 5: AWARENESS MATERIALS & POSTERS */}
       <section id="posters" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="PUBLIC CIVIC EDUCATION"
-          title="Visual Awareness Posters & Infographics"
+          eyebrow="CIVIC EDUCATION & LITERACY"
+          title="Visual Awareness Campaigns & Infographics"
           copy="Four high-impact awareness campaigns translating complex algorithmic crises into clear public literacy imperatives."
         />
         <div className="mt-12">
@@ -172,7 +172,7 @@ export default function HomePage() {
       {/* SECTION 6: RESPONSIBLE GENERATIVE AI MANIFESTO */}
       <section className="container-wide py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="ACTIONABLE GOVERNANCE"
+          eyebrow="NORMATIVE GOVERNANCE"
           title="The 5-Pillar Responsible GenAI Manifesto"
           copy="Mandating provenance, likeness consent, labor equity, cultural pluralism, and human decisional sovereignty."
         />
@@ -181,12 +181,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 7: TEAM COORDINATION & EQUAL PARTICIPATION MATRIX */}
+      {/* SECTION 7: RESEARCH DIRECTORS & INVESTIGATIVE DIVISIONS */}
       <section id="team" className="container-wide scroll-mt-28 py-20 md:py-28 border-t border-line/60">
         <SectionHeader
-          eyebrow="RUBRIC 5: TEAM COORDINATION"
-          title="Mandatory Equal Participation Ledger"
-          copy="Documenting distinct individual topic ownership, presentation timing allocations, and research deliverable contributions across all team members."
+          eyebrow="RESEARCH DIRECTORS & DIVISION STEWARDSHIP"
+          title="Collaborative Authorship & Specialization Parity"
+          copy="Documenting distinct domain leadership, presentation timing allocations, and research deliverable contributions across the collective."
         />
         <div className="mt-12">
           <TeamCoordination />
@@ -201,21 +201,21 @@ export default function HomePage() {
             <div className="lg:col-span-8">
               <span className="pill-badge border-blue/30 bg-blue/10 text-blue mb-4">
                 <Sparkles size={12} className="animate-pulse" />
-                ACADEMIC DELIVERABLES READY FOR EVALUATION
+                ACADEMIC MONOGRAPH & EXECUTIVE BRIEFING
               </span>
               <h2 className="font-display text-3xl font-bold tracking-tight text-paper sm:text-4xl md:text-5xl">
-                Inspect the Paper & Presentation Deck
+                Inspect the Monograph & Briefing Room
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
-                Access the formal 2–3 page academic ethical analysis paper with scholarly citations, or launch the interactive 5–7 minute presenter deck equipped with synchronized live timer and speaker notes.
+                Access the formal 2–3 page academic research paper with scholarly citations, or launch the interactive 7-minute executive briefing room equipped with a synchronized live timer and rehearsal speaker notes.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 lg:col-span-4 lg:justify-end">
               <Link href="/presentation" className="button-primary group">
-                LAUNCH 5-7M DECK <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+                ENTER BRIEFING ROOM <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </Link>
               <Link href="/analysis" className="button-secondary">
-                VIEW 3-PAGE PAPER
+                READ RESEARCH MONOGRAPH
               </Link>
             </div>
           </div>

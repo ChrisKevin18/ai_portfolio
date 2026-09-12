@@ -6,12 +6,12 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "/#unit5", label: "UNIT-5 TOPICS", match: (path: string) => path === "/#unit5" },
-  { href: "/#forensics", label: "LAB & FORENSICS", match: (path: string) => path === "/#forensics" },
-  { href: "/#posters", label: "POSTERS", match: (path: string) => path === "/#posters" },
-  { href: "/analysis", label: "ETHICAL PAPER", match: (path: string) => path.startsWith("/analysis") },
-  { href: "/presentation", label: "5-7M DECK", match: (path: string) => path.startsWith("/presentation") },
-  { href: "/about", label: "TEAM & ABOUT", match: (path: string) => path.startsWith("/about") },
+  { href: "/#investigations", label: "INVESTIGATIONS", match: (path: string) => path === "/#investigations" },
+  { href: "/#forensics", label: "FORENSIC LAB", match: (path: string) => path === "/#forensics" },
+  { href: "/#posters", label: "ADVOCACY", match: (path: string) => path === "/#posters" },
+  { href: "/analysis", label: "MONOGRAPH", match: (path: string) => path.startsWith("/analysis") },
+  { href: "/presentation", label: "BRIEFING ROOM", match: (path: string) => path.startsWith("/presentation") },
+  { href: "/about", label: "COLLECTIVE", match: (path: string) => path.startsWith("/about") },
 ];
 
 export function Navbar() {
@@ -52,11 +52,11 @@ export function Navbar() {
             <span className="flex h-7 w-7 items-center justify-center rounded-lg border border-blue/40 bg-blue/10 text-blue transition-all duration-300 group-hover:scale-105 group-hover:border-blue group-hover:bg-blue/20">
               <ShieldCheck size={16} />
             </span>
-            <span>CHRIS KEVIN A</span>
+            <span>VERITAS // SYNTHETICA</span>
           </Link>
           <span className="hidden items-center gap-1.5 rounded-full border border-green/30 bg-green/10 px-2.5 py-0.5 text-[0.62rem] font-mono font-medium text-green lg:inline-flex">
             <span className="h-1.5 w-1.5 rounded-full bg-green animate-pulse" />
-            CIA 3 · UNIT-5 GEN-AI ETHICS
+            DIGITAL ETHICS OBSERVATORY · 2026
           </span>
         </div>
 
@@ -85,7 +85,7 @@ export function Navbar() {
             className="hidden items-center gap-2 rounded-full border border-blue/40 bg-blue/15 px-4 py-2 font-mono text-[0.68rem] font-semibold tracking-[0.14em] text-paper transition-all duration-300 hover:border-blue hover:bg-blue/25 hover:shadow-blue-glow focus-ring md:flex"
           >
             <Presentation size={13} className="text-blue" />
-            <span>START 5-7M PRESENTATION</span>
+            <span>ENTER BRIEFING (7 MIN)</span>
           </Link>
           <button
             type="button"
@@ -103,9 +103,9 @@ export function Navbar() {
         <div className="border-t border-line bg-ink/95 px-5 pb-8 pt-4 backdrop-blur-2xl md:hidden shadow-2xl animate-in fade-in slide-in-from-top-4 duration-200">
           <div className="mx-auto flex max-w-[1480px] flex-col gap-2">
             <div className="mb-2 flex items-center justify-between pb-3 border-b border-line/60">
-              <span className="font-mono text-xs text-muted">NAVIGATION</span>
+              <span className="font-mono text-xs text-muted">INDEX</span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-green/30 bg-green/10 px-2 py-0.5 text-[0.62rem] font-mono text-green">
-                <span className="h-1.5 w-1.5 rounded-full bg-green" /> CIA 3 Digital Ethics
+                <span className="h-1.5 w-1.5 rounded-full bg-green" /> Research Observatory
               </span>
             </div>
             {links.map((link) => {
@@ -131,7 +131,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-3 flex items-center justify-center gap-2 rounded-full border border-blue/50 bg-blue/20 px-5 py-3 font-mono text-[0.72rem] font-semibold tracking-[0.14em] text-paper transition hover:border-blue focus-ring"
             >
-              <Presentation size={15} /> START 5-7M PRESENTATION
+              <Presentation size={15} /> ENTER BRIEFING (7 MIN)
             </Link>
           </div>
         </div>

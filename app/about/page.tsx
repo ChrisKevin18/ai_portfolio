@@ -15,9 +15,9 @@ import {
 
 const facts = [
   { label: "DEGREE PROGRAM", value: "B.Tech Computer Science & Engineering", icon: GraduationCap },
-  { label: "ASSESSMENT", value: "CIA 3 – Component 2 (Unit-5)", icon: ShieldCheck },
-  { label: "CORE FOCUS", value: "Generative AI, Truth & Global Order", icon: CheckCircle2 },
-  { label: "CLASS / YEAR", value: "Class 5BTCS-B · Year 2026", icon: FileText },
+  { label: "RESEARCH FOCUS", value: "Generative Systems & Epistemic Ethics", icon: ShieldCheck },
+  { label: "METHODOLOGY", value: "Empirical Forensics & Decolonial Critique", icon: CheckCircle2 },
+  { label: "COHORT / YEAR", value: "Class 5BTCS-B · Year 2026", icon: FileText },
 ];
 
 export default function AboutPage() {
@@ -28,29 +28,29 @@ export default function AboutPage() {
         <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-8">
             <span className="pill-badge border-blue/30 bg-blue/10 text-blue mb-6">
-              ACADEMIC RESEARCH PROFILE & TEAM
+              RESEARCH COLLECTIVE PROFILE
             </span>
             <h1 className="font-display text-4xl font-bold tracking-tight text-paper sm:text-6xl md:text-7xl">
               Chris Kevin A
             </h1>
             <p className="mt-4 font-mono text-sm tracking-wider text-green">
-              Computer Science & Engineering · Reg No: 2460349 · Christ University
+              Computer Science & Engineering · Author ID: 2460349 · Christ University
             </p>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg sm:leading-8">
-              Welcome to our academic research platform for <strong>CIA 3 – Component 2: Digital Ethics Portfolio Presentation on Generative AI</strong> (covering <em>Unit-5: Generative AI, Truth, Creativity, and Global Ethical Order</em>). Developed collaboratively with research partners <strong>Sandhiya M</strong> and <strong>Karthik R</strong>, this project investigates epistemic risk, deepfakes, creative labor enclosure, algorithmic warfare, and Global North–South asymmetries.
+              Welcome to the <strong>Veritas // Synthetica Digital Ethics Observatory</strong>, an academic research initiative led by <strong>Chris Kevin A</strong> in collaboration with research partners <strong>Sandhiya M</strong> and <strong>Karthik R</strong>. Our work investigates the societal impact and governance frontiers of Generative Artificial Intelligence—probing epistemic risk, deepfakes, copyright dispossession, cognitive warfare, and Global North–South labor extraction.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/presentation" className="button-primary group">
                 <Presentation size={14} />
-                <span>5–7M PRESENTATION</span>
+                <span>EXECUTIVE BRIEFING (7 MIN)</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </Link>
               <Link href="/analysis" className="button-secondary">
                 <BookOpen size={14} />
-                <span>3-PAGE ACADEMIC PAPER</span>
+                <span>RESEARCH MONOGRAPH</span>
               </Link>
-              <Link href="/#unit5" className="rounded-full border border-line px-5 py-2.5 font-mono text-xs text-muted hover:text-paper hover:border-line-bright transition">
-                UNIT-5 TOPICS
+              <Link href="/#investigations" className="rounded-full border border-line px-5 py-2.5 font-mono text-xs text-muted hover:text-paper hover:border-line-bright transition">
+                INVESTIGATION DOSSIERS
               </Link>
             </div>
           </div>
@@ -58,30 +58,30 @@ export default function AboutPage() {
           <div className="lg:col-span-4">
             <div className="rounded-2xl border border-line bg-gradient-to-b from-card/90 to-panel/90 p-6 backdrop-blur-xl shadow-card-glass">
               <span className="font-mono text-xs font-semibold uppercase tracking-widest text-quiet">
-                ACADEMIC AFFILIATION
+                ACADEMIC PROVENANCE
               </span>
               <h2 className="mt-3 font-display text-xl font-semibold text-paper">
-                CIA 3 Digital Ethics 2026
+                Digital Ethics Observatory 2026
               </h2>
               <p className="mt-2 text-xs leading-relaxed text-muted">
-                Documenting Unit-5 curriculum, empirical forensic audits, academic paper analysis, and collaborative presentation.
+                Documenting empirical forensic audits, academic monographs, and collaborative governance frameworks.
               </p>
               <div className="mt-6 space-y-3 border-t border-line/60 pt-4 text-xs font-mono">
                 <div className="flex justify-between text-muted">
-                  <span>UNIT:</span>
-                  <span className="text-paper">Unit-5 (Generative AI)</span>
+                  <span>DISCIPLINE:</span>
+                  <span className="text-paper">Computer Science & Eng.</span>
                 </div>
                 <div className="flex justify-between text-muted">
                   <span>CLASS:</span>
                   <span className="text-paper">5BTCS-B</span>
                 </div>
                 <div className="flex justify-between text-muted">
-                  <span>DISCIPLINE:</span>
-                  <span className="text-paper">CSE</span>
+                  <span>FRAMEWORKS:</span>
+                  <span className="text-paper">C2PA & CARE Principles</span>
                 </div>
                 <div className="flex justify-between text-muted">
-                  <span>RUBRIC SCORE TARGET:</span>
-                  <span className="text-green">20 / 20 Marks (100%)</span>
+                  <span>PEER-REVIEW STATUS:</span>
+                  <span className="text-green">Academic Publication Standard</span>
                 </div>
               </div>
             </div>
@@ -109,12 +109,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Coordination & Equal Participation (Rubric 5) */}
+      {/* Team Coordination & Equal Participation */}
       <section className="mx-auto max-w-7xl py-20 border-b border-line">
         <SectionHeader
-          eyebrow="RUBRIC 5: TEAM COORDINATION"
-          title="Collaborative Research & Presentation Matrix"
-          copy="Demonstrating 100% equal contribution across the three student researchers, with distinct topic ownership and speaking slots."
+          eyebrow="RESEARCH DIRECTORS & INVESTIGATIVE DIVISIONS"
+          title="Collaborative Research & Authorship Parity"
+          copy="Demonstrating collaborative equity across the three student investigators, with distinct domain ownership and executive briefing roles."
         />
         <div className="mt-12">
           <TeamCoordination />
